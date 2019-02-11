@@ -41,20 +41,34 @@
         <br>
         <div class="row">
             <div class="col-lg-12">
-				<div class="form-group">
-					<p class="text-dark text-center display-4">Create a config for:
-					
-					<select class="form-control" id="exampleFormControlSelect1">
-					<option>Mikrotik</option>	
-					<option>Cisco</option>
-					</select>
-					</p>
-				</div>
+                <p class="text-dark text-center display-4">Configuratiile mele</p>
             </div>
-			<div class="col text-center">
-
-			<button type="button" class="btn btn-primary col-lg-3 ">Create</button>
-			</div>
         </div>
+        <div class="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nume</th>
+                            <th>Tipul</th>
+                            <th>Scriptul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">name1</td>
+                            <td>type1</td>
+                            <td>script1</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">name2</td>
+                            <td>type2</td>
+                            <td>script2</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+
+
+
 </body>
 </html>
