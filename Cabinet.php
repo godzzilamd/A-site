@@ -18,7 +18,7 @@
 <body data-gr-c-s-loaded="true">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="Main.php">
                     Config-it
             </a>
 
@@ -26,10 +26,10 @@
                 <div class="input-group col-lg-4">
                 </div>
                 <div class="ml-auto">
-                                        <a class="navbar-brand col-lg-3" href="Configurari.php" role="button">
+                                        <a class="navbar-brand col-lg-3" href="Cabinet.php" role="button">
                                                 <img src="public/assets/imgs/icons8-customer-50.png" width="30" height="30">
                                             </a>
-                                            <a class="navbar-brand col-lg-3" href="LogOut.php" role="button">
+                                            <a class="navbar-brand col-lg-3" href="Logare.php" role="button">
                                                 <img src="public/assets/imgs/icons8-exit-50.png" width="30" height="30">
                                             </a>
                 </div>
