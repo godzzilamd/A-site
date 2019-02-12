@@ -63,7 +63,7 @@ if ($login != "-" && $password != "-")
 	} else {
 		echo "
 	    <script>
-	    	window.open('Logare.php', '_self')
+	    	window.open('Logare.php', '_self');
 	    	window.alert('Login sau parola incorecta');
 	    </script>";
 	}

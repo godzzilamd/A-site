@@ -19,7 +19,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="Main.php">
-                    Config-it Mikrotik
+                    Config-it Cisco
             </a>
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
