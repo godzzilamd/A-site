@@ -106,16 +106,26 @@
             $final_str = '';
             //IP
             if ($staticIp && !$manualIp) {
-                $final_str .= 'ip address add address="' . $staticIp .'" interface=ether2;\n';
+                $final_str .= 'ip address add address="' . $staticIp .'" interface=ether2;<br>';
             } elseif (!$staticIp && $manualIp) {
                 $final_str .= 'ip address add address="' . $manualIp .'" netmask '. $netmask .' interface=ether2;<br>' ;
-                $final_str .= 'ip route add gateway=' . $gateway .';\n';
+                $final_str .= 'ip route add gateway=' . $gateway .';<br>';
                 // $final_str .= 'wangateway "' . $gateway .'";\n';
-                
-                
             }
             
-            echo '$final_str: ' . $final_str;
+            //Numele retelei
+            $final_str .= 'system identity set name=' . $networkName . ';<br>';
+
+            //Loghinul si parola 
+            $final_str .= 'user add name=' . $routerLogin . ' password="' . $routerPass. '" group=full' . '";<br>';
+            $final_str .= 'user set ' . $routerLogin .' password="' . $routerPass. '";<br>';
+
+            //wifi pass
+            // ??? TODO: ???
+            
+
+            echo '<hr>' . $final_str;
+            
         }
 
     }
